@@ -10,7 +10,7 @@ test("Can set name via constructor arguments", () => {
   const name = "Alice";
   const e = new Employee(name);
   expect(e.name).toBe(name);
-});
+});no
 
 test("Can set id via constructor argument", () => {
   const testValue = 100;
